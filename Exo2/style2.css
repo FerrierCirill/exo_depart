@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ------------------------------------ */
+
+    .noir {
+        background: #000;
+    }
+
+
+    .bleu {
+        background: rgb(0, 102, 255);
+        width: 100%;
+
+    }
+
+    #A {
+        background: #ddd;
+        padding: 2rem 0;
+    }
+
+    .orange {
+        background: rgb(255, 174, 0);
+        width: 100%;
+    }
+
+    .jaune {
+        background: rgb(255, 238, 0);
+        width: 100%;
+    }
+
+    #B {
+        background: #555;
+        padding: 2rem 0;
+    }
+
+    .cyan {
+        background: rgb(0, 255, 255);
+        width: 100%;
+
+    }
+
+    .violet {
+        background: rgb(100, 7, 85);
+        width: 100%;
+
+    }
+
+/* ------------------------------------ */
+
+    .YOUSK2 {
+        height: 250px;
+    }
+
+    
+    nav {
+        height: 100px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+/* ------------------------------------ */
+
+
+    .container {
+        width: 100%;
+    }
+
+/* ------------------------------------ */
+
+
+    @media only screen and (min-width: 720px) {
+        .container{
+            width: 720px;
+            margin: 0 auto;
+            display: table;
+        }
+
+        .orange {
+            width: 50%;
+            display: table-cell;
+        }
+
+        .jaune {
+            width: 50%;
+            display: table-cell;
+        }
+
+        .cyan {
+            width: 50%;
+            display: table-cell;
+        }
+
+        .violet {
+            width: 50%;
+            display: table-cell;
+        }
+    }
+
+/* ------------------------------------ */
+
+    @media only screen and (min-width: 1080px) {
+        .container {
+            width: 1080px;
+        }
+
+        .orange {
+            width: 30%;
+            display: table-cell;
+        }
+
+        .jaune {
+            width: 70%;
+            display: table-cell;
+        }
+
+        .cyan {
+            width: 70%;
+            display: table-cell;
+        }
+
+        .violet {
+            width: 30%;
+            display: table-cell;
+        }
+    }
