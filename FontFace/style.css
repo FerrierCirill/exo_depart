@@ -1,0 +1,103 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+html {    
+    background: url("https://picsum.photos/1080/720?grayscale&blur=3");
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+
+}
+
+body {
+        background: #000c;
+        margin: 7rem;
+        padding: 2rem;
+        color: #fff;
+        /* width: 100%; */
+        /* max-width: 100%; */
+        box-sizing: border-box;
+        box-shadow: 0 0 20px 9px black;
+}
+
+h1 {
+    margin: auto;
+}
+
+a{background: aqua;padding: 0.2rem 0.5rem;border-radius: 20px;position: relative;top: +20px;color: #000;cursor: pointer;}
+
+@font-face {
+    font-family: 'elephantregular';
+    src: url('font/elephnt-webfont.woff2') format('woff2'),
+         url('font/elephnt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aisha_Script';
+    src: url('font/Aisha_Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'coure';
+    src: url('font/coure.svg') format('svg');
+    /* https://caniuse.com/#feat=mdn-css_at-rules_font-face_svg_fonts */
+}
+
+@font-face {
+    font-family: 'HACKED';
+    src: url('font/HACKED.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'holomdl2';
+    src: url('font/holomdl2.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Luciole-Regular';
+    src: url('font/Luciole-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Videopac';
+    src: url('font/Videopac.otf') format('opentype');
+}
+
+.Videopac {
+    font-family: "Videopac";
+}
+
+.Luciole-Regular {
+    font-family: "Luciole-Regular";
+}
+
+.holomdl2 {
+    font-family: "holomdl2";
+}
+
+.HACKED {
+    font-family: "HACKED";
+}
+
+.coure {
+    font-family: "coure";
+}
+
+.Aisha_Script {
+    font-family: "Aisha_Script";
+}
+
+.elephantregular {
+    font-family: "elephantregular";
+}

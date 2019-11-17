@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'bertina';
+    src: url('../fonts/bertina.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamHTF';
+    src: url('../fonts/GothamHTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'bertina', sans-serif;
+    color: #00465b;
+}
+
+a {
+    color: $a-color;
+
+    &:hover {
+        color: $a-color-hover;
+    }
+}
+
+.text-center {
+    text-align: center;
+}

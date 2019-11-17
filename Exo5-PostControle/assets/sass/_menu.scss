@@ -1,0 +1,40 @@
+nav {
+    background: url('../img/home.jpg');
+    background-size: cover;
+    background-position: center ;
+    min-height: 100px;
+
+
+    .menuBureau {
+        display: none;
+    }
+
+    .col {
+        align-self: center;
+    }
+
+    @media only screen and (min-width: $BP2) {
+        min-height: 300px;
+        .menuBureau {
+            display: block;
+        }
+        .menuMobile {
+            display: none;
+        }
+    }
+
+
+    div.linkBG {
+        background: rgb(179,209,67);
+
+        &:hover {
+            background: rgb(100,123,34);
+        }
+
+
+        a {
+            color: #000;
+        }
+
+    }
+}

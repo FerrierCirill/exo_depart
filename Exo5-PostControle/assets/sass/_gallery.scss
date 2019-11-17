@@ -1,0 +1,46 @@
+.gallery {
+
+    .row {
+        input[type=checkbox] {
+            display: none;
+        }
+
+        label.col {
+            width   : 30%;
+            border  : none;
+            cursor  : pointer;
+            position: relative;
+            top     : 0px;
+            left    : 0px;
+
+            .openZone {
+                background: rgba(0, 0, 0, 0.5);
+                width     : 100%;
+                height    : 50px;
+                text-align: center;
+                transition: 0.5s;
+
+                .title {
+                    line-height: 45px;
+                }
+
+                > p {
+                    top: 0px;
+                    opacity: 0;
+                }
+            }
+        }
+
+        input:checked + label.col .openZone {
+            height: 120px;
+
+            > p {
+                line-height: initial;
+                opacity: 1;
+                border-top: #ddd solid 1px;
+                margin: 0.5em;
+            }
+        }
+    }
+
+}

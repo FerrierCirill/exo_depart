@@ -1,0 +1,84 @@
+// ========================   B R E A C K P O I N T  ======================== //
+
+	$BP1 : 768px;
+	$BP2 : 992px;
+	$BP3 : 1200px;
+	$MBF : $BP1 - 1;
+
+
+// ========================   C O L O R S  ======================== //
+
+	$body-bg-color  : rgb(255, 255, 255);
+	$body-text-color: rgb(0, 0, 0);
+
+	$footer-bg-color : rgba(109, 111, 113, 1);
+
+
+	$a-color	   : rgb(0, 253, 169);;
+	$a-color-hover : lighten($a-color, 100%);
+
+	$svg-color-text : rgb(0, 0, 0);
+	$svg-color-text-hover : rgb(0, 0, 0);
+
+
+	.orange {
+		color: rgb(252,183,49);
+	}
+
+	.bleu {
+		color: rgb(0,175,236);
+	}
+
+	.marron {
+		color: rgb(195,165,117);
+	}
+
+	.vert {
+		color: rgb(179,209,67);
+	}
+
+
+
+// ========================   N A V   ======================== //
+
+	// $nav-hauteur	 : 75px;	
+
+	// $nav-taille-open : 70%;
+	// $nav-taille-open : 50%;
+
+	// $nav-taille-open-on-MBF : 100%;
+	// $nav-taille-open-on-BP1 : 70%;
+	// $nav-taille-open-on-BP2 : 50%;
+	// $nav-taille-open-on-BP3 : 20%;
+
+	// $nav-min-taille-open-on-MBF : CC-taille-min-nav($BP1, $nav-taille-open)px;
+	// $nav-min-taille-open-on-BP1 : CC-taille-min-nav($BP1, $nav-taille-open)px;
+	// $nav-min-taille-open-on-BP2 : CC-taille-min-nav($BP2, $nav-taille-open)px;
+	// $nav-min-taille-open-on-BP3 : CC-taille-min-nav($BP3, $nav-taille-open)px;
+
+
+	/******************************/
+
+	$nav-color-bg               : rgba(37, 37, 37, 1);
+	$nav-open-color-bg			: rgba(37, 37, 37, 1);
+    $nav-color-link-li-hover    : darken($nav-color-bg, 3%);
+	
+    $nav-color-link-text        : rgb(0, 253, 169);
+    $nav-color-link-text-hover  : lighten($nav-color-link-text, 100%);
+
+	$nav-title-color			: rgb(0, 253, 169);
+	$nav-burger-color 			: rgb(0, 253, 169);
+
+	/////////// CALCUL ////////////////
+
+		// @function CC-taille-min-nav($BP, $pourcentage) {
+		// 	@return $BP / 100 * $pourcentage;
+		// }
+
+// ========================   P A D D I N G   ======================== //
+
+	$padding-MBF : 0.5rem;
+	$padding-BP1 : 1rem;
+	$padding-BP2 : 3rem;
+	$padding-BP3 : 5rem;
+	

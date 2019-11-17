@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    p.promo {
+        background: #9e1212;
+        color: #fff;
+        padding: 0.5rem;
+        text-align: center;
+        border-radius: 10px ;
+        font-size: 0.9em;
+
+        position: absolute;
+        top: 10%;
+        right: 15%;
+        width: 200px;
+
+        transform: rotate(30deg);
+    }
+
+    p.banner {
+        background: rgba(255,255,255,0.5);
+        color:rgb(255, 255, 255);
+        font-size: 1em;
+
+        position: relative;
+        bottom: 4em;
+        padding: 0em 1rem;
+
+        span {
+            display: block;
+            font-size: 0.7em;
+        }
+
+    } 
+    
+    @media only screen and (min-width: $BP2) {
+        p.banner span {
+            display: inline;
+        }
+    } 
+}

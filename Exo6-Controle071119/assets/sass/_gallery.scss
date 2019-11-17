@@ -1,0 +1,51 @@
+// ZONE CONTENANT LES 3 IMAGES DE BAS DE PAGE
+
+.gallery {
+    flex-wrap: wrap;
+    
+    .col {
+        width: 100%;
+    }
+
+    div img {
+        border-radius: 50% ;
+    }
+
+    div p {
+        font-family: 'GothamHTF', sans-serif;
+        text-align: center;
+    }
+
+    .d2 { order: 1; }
+    .d3 { order: 2; }
+    .d1 { order: 3; }
+
+}
+
+/***************
+    Media Query 
+****************/
+
+    @media only screen and (min-width: $BP1) {
+        .gallery {
+            .col {
+                width: 50%;
+                padding: 2rem;
+            }
+
+            .d1 { order: 1; }
+            .d2 { order: 2; }
+            .d3 { order: 3; }
+            
+
+        }
+    }
+
+    @media only screen and (min-width: $BP2) {
+        .gallery {
+            .col {
+                width: 33%;
+                padding: 2em;
+            }
+        }
+    }

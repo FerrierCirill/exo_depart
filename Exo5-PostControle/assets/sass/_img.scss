@@ -1,0 +1,22 @@
+img {
+    width: 100%;
+}
+
+.small {
+    width: 150px ;
+}
+
+.bgPaterne {
+    background: url('../img/svg/points.svg');
+
+    .titre {
+        font-size: 1.8em;
+        font-weight: 900;
+        text-align: right;
+        color: #333;
+    }
+
+    ~ .col p {
+        text-align: left;
+    }
+}

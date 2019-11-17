@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FontFace</title>
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body id="AAA" class="Luciole-Regular">
+        <h1 id="BBB">-- Luciole-Regular --</h1>
+        <h2>ABCČĆDĐEFGHIJKLMNOPQRSŠTUVWXYZŽ</h2>
+        <h2>abcčćdđefghijklmnopqrsštuvwxyzž</h2>
+        <h2>АБВГҐДЂЕЁЄЖЗЅИІЇЙЈКЛЉМНЊОПРСТЋУЎФХЦЧЏШЩЪЫЬЭЮЯ</h2>
+        <h2>абвгґдђеёєжзѕиіїйјклљмнњопрстћуўфхцчџшщъыьэюя</h2>
+        <h2>ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</h2>
+        <h2>αβγδεζηθικλμνξοπρστυφχψω</h2>
+        <h2>άΆέΈέΉίϊΐΊόΌύΰϋΎΫΏĂÂÊÔƠƯăâêôơư</h2>
+        <h2>1234567890‘?’“!”(%)[#]{@}/&\<-+÷×=>®©$€£¥¢:;,.*</h2>
+        <a onclick="typo()">T Y P O</a>
+    </body>
+
+    <script>
+        var a = [   "Luciole-Regular",
+                    "Videopac",
+                    "holomdl2",
+                    "HACKED",
+                    "coure",
+                    "Aisha_Script",
+                    "elephantregular"
+                ]
+
+            function typo() {
+                cl = a[Math.floor(Math.random() * Math.floor(a.length))];
+                document.getElementById("AAA").className  = cl;
+                document.getElementById("BBB").innerHTML  = "-- " + cl + " --"; 
+            }
+    </script>
+</html>

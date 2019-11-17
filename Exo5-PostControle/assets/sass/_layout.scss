@@ -1,0 +1,119 @@
+h1,p {
+    text-align: center;
+}
+
+
+/***************
+      Flex 
+****************/
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom : 2rem ;
+    }
+
+    .row {
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        align-content: center;
+    }
+    
+    .row.wrap {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .row.rowWithBg {
+        width: 100%;
+        margin-bottom: 2rem;
+        .col {
+            &:first-child {
+                padding-right: 5%/2;
+            }
+            &:last-child {
+                padding-right: 5%/2;
+            }
+        }   
+    }
+
+    .row2_2 {
+        flex-direction: column;
+    }
+
+
+    .rowOrange {
+        background: rgb(243, 171, 15);
+        color: #fff;
+        margin-bottom: 2rem;
+        h2,p {
+            text-align: left;
+        }
+    }
+
+    .rowVert {
+        background: #b3d143;
+        color: rgb(70, 70, 70);
+        margin-bottom: 2rem;
+        h2,p {
+            text-align: left;
+        }
+    }
+
+    .rowPaterne {
+        background: url('../img/svg/points.svg');
+        color: rgb(70, 70, 70);
+        margin-bottom: 2rem;
+        h2,p {
+            text-align: left;
+        }
+    }
+
+    .rowBeige {
+        background: rgb(232,221,202);
+        color: rgb(70, 70, 70);
+        margin-bottom: 2rem;
+        h2,p {
+            text-align: left;
+        }
+    }
+
+
+    @media only screen and (min-width: $BP1) {
+        .row.wrap {
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .col {
+                width: 50%;
+            }
+        }
+
+        .row2_2 {
+            flex-direction: row;
+        }
+    }
+
+    @media only screen and (min-width: $BP2) {
+        .row.wrap {
+            .col {
+                width: 33.33%;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $BP3) {
+        .row.wrap {
+            .col {
+                width: 25%;
+            }
+        }
+    }
+    

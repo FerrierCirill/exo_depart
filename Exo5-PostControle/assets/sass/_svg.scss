@@ -1,0 +1,12 @@
+.icon {
+    height : 1em;
+    width  : 1em;
+    fill: currentColor;
+    text-align: center;
+    // display: block;
+
+    &.big {
+        height : 3em;
+        width  : 3em;
+    }
+}

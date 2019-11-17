@@ -1,0 +1,70 @@
+/***************
+      Flex 
+****************/
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom : 2rem ;
+    }
+
+    .row {
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        align-content: center;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .rowlogo {
+        justify-content: space-around;
+        align-content: space-around;
+
+        
+    }
+
+    .iciExp p {
+        font-family: 'GothamHTF', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        width: 100%;
+        text-align: left;
+
+        span {
+            font-size: 0.8em;
+            vertical-align: super;
+        }
+    }
+
+    /***************
+    Media Query 
+****************/
+
+    @media only screen and (min-width: $BP1) {
+        .row {
+            width: 90%;
+        }
+        
+    }
+
+    @media only screen and (min-width: $BP2) {
+        .row {
+            width: 65%;
+        }
+
+        .rowlogo {
+            div.col img {
+                height: 100px;
+                width: auto;
+            }
+        }
+
+        .iciExp p {
+            text-align: right;
+        }
+    }
